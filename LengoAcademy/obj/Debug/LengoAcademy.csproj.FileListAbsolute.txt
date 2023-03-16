@@ -1,0 +1,218 @@
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\obj\Debug\LengoAcademy.csproj.AssemblyReference.cache
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\obj\Debug\LengoAcademy.csproj.CoreCompileInputs.cache
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\LengoAcademy.dll.config
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\LengoAcademy.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\LengoAcademy.pdb
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\csc.exe
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\csc.exe.config
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\csc.rsp
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\csi.exe
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\csi.exe.config
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\csi.rsp
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.AppContext.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Collections.Immutable.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Console.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Globalization.Calendars.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.IO.Compression.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.IO.FileSystem.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Net.Http.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Net.Sockets.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.ValueTuple.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Xml.XPath.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\vbc.exe
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\vbc.exe.config
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\vbc.rsp
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\VBCSCompiler.exe
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\VBCSCompiler.exe.config
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Antlr3.Runtime.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\EntityFramework.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\EntityFramework.SqlServer.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.Web.Infrastructure.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Newtonsoft.Json.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Helpers.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Mvc.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Optimization.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Razor.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.WebPages.Deployment.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.WebPages.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.WebPages.Razor.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\WebGrease.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\EntityFramework.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\EntityFramework.SqlServer.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Helpers.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Mvc.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Optimization.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Razor.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.WebPages.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.WebPages.Deployment.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.WebPages.Razor.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Newtonsoft.Json.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Antlr3.Runtime.pdb
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\obj\Debug\LengoAcademy.csproj.CopyComplete
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\obj\Debug\LengoAcademy.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\obj\Debug\LengoAcademy.pdb
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Ninject.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Ninject.Web.Common.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Ninject.Web.Common.WebHost.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Threading.Tasks.Extensions.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Unity.Abstractions.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Unity.Container.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Unity.Mvc5.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\WebActivatorEx.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Ninject.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Ninject.Web.Common.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Ninject.Web.Common.WebHost.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Threading.Tasks.Extensions.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Unity.Abstractions.pdb
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Unity.Container.pdb
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Net.Http.Formatting.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Http.dll
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Net.Http.Formatting.xml
+E:\Dare Academy\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Http.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\LengoAcademy.dll.config
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\LengoAcademy.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\LengoAcademy.pdb
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\csc.exe
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\csc.exe.config
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\csc.rsp
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\csi.exe
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\csi.exe.config
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\csi.rsp
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.AppContext.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Collections.Immutable.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Console.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Globalization.Calendars.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.IO.Compression.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.IO.FileSystem.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Net.Http.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Net.Sockets.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Reflection.Metadata.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.ValueTuple.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Xml.XPath.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\vbc.exe
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\vbc.exe.config
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\vbc.rsp
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\VBCSCompiler.exe
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\roslyn\VBCSCompiler.exe.config
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Antlr3.Runtime.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\EntityFramework.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\EntityFramework.SqlServer.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.Web.Infrastructure.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Newtonsoft.Json.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Net.Http.Formatting.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Threading.Tasks.Extensions.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Helpers.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Http.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Mvc.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Optimization.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Razor.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.WebPages.Deployment.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.WebPages.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.WebPages.Razor.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\WebActivatorEx.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\WebGrease.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\EntityFramework.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\EntityFramework.SqlServer.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Net.Http.Formatting.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Threading.Tasks.Extensions.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Http.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Helpers.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Mvc.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Optimization.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.Razor.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.WebPages.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.WebPages.Deployment.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\System.Web.WebPages.Razor.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Newtonsoft.Json.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Antlr3.Runtime.pdb
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\obj\Debug\LengoAcademy.csproj.AssemblyReference.cache
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\obj\Debug\LengoAcademy.csproj.CoreCompileInputs.cache
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\obj\Debug\LengoAcademy.csproj.CopyComplete
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\obj\Debug\LengoAcademy.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\obj\Debug\LengoAcademy.pdb
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.Practices.ServiceLocation.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.Practices.ServiceLocation.pdb
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Microsoft.Practices.ServiceLocation.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\obj\Debug\LengoAcademy.Migrations.initDb.resources
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\obj\Debug\LengoAcademy.csproj.GenerateResource.cache
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Ninject.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Ninject.Web.Common.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Unity.Abstractions.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Unity.Container.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Ninject.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Ninject.Web.Common.xml
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Unity.Abstractions.pdb
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Unity.Container.pdb
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Ninject.Web.Common.WebHost.dll
+E:\Task\Lengo Academy\LengoAcademy\LengoAcademy\bin\Ninject.Web.Common.WebHost.xml

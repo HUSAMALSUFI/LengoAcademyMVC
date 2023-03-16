@@ -1,0 +1,256 @@
+﻿@using LengoAcademy.Models
+@using LengoAcademy.Entity
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model VmHome
+@section Head {
+    <style type="text/css">
+        .swiper-scrollbar .swiper-scrollbar-lock {
+            display: block !important;
+        }
+
+        .swiper-scrollbar-lock {
+            display: block !important;
+        }
+
+        .col-lg-4 {
+            flex: 0 0 auto;
+            width: 49.333333% !important;
+        }
+    </style>
+}
+
+@section Body{
+    <main id="main-body-wrapper">
+        <!-- Banner Area -->
+        <section class="maan-lms-banner-section">
+            <div class="container-fluid">
+                <div class="maan-lms-banner-wrapper">
+                    <img src="~/assets/img/imgg.png" alt="" class="banner-shape">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="maan-lsm-banner-content">
+                                    <h1>
+                                        Lengo Academy For
+                                        <span class="typed"></span>
+                                    </h1>
+                                    <p>
+                                        It is a long established fact that a reader will be distracted by the readable content.
+                                    </p>
+                                    <div class="mls-banner-button-group">
+                                        <a asp-area="" asp-controller="Courses" asp-action="LoadAllByDefaultCategory" class="btn maan-lms-btn border-btn">View Courses</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="maan-lms-banner-thumb">
+                                    <img src="~/assets/img/image-01.png" alt="" class="banner-img-big">
+                                    <img src="~/assets/img/image-02.png" alt="" class="banner-img-small">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner Area -->
+        <!-- intro Section -->
+        <section class="maan-sml-intro-section">
+            <div class="container-fluid">
+                <div class="maan-intro-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="maan-intro-items">
+                                    <div class="icons">
+                                        <img src="~/assets/img/money-back.png" alt="" style=" max-width: 135px; margin-bottom: 30px;">
+                                    </div>
+                                    <div class="intro-content">
+                                        <h3>Money Back Guarantee</h3>
+                                        <p>We guarantee that all our courses will meet or exceed your expectations. If you are not 100% satisfied with a course - for any reason at all - simply request a full refund.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="maan-intro-items intro-pink">
+                                    <div class="icons">
+                                        <img src="~/assets/img/target.png" alt="">
+                                    </div>
+                                    <div class="intro-content">
+                                        <h3>High Productive and Efficient Training</h3>
+                                        <p>Our Courses will gain you all knowledge; skills and tools that you need to find a job or even become a successful freelance professional.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- intro Section -->
+        <!-- Popular Categories Section -->
+        <section class="maan-lms-popular-category-section ">
+            <div class="container-fluid">
+                <div class="mls-popular-category-wrapper maan-section-padding">
+                    <!-- <img src="assets/img/new-home/shape1.png" alt="" class="shape1"> -->
+                    <img src="~/assets/img/new-home/shape2.png" alt="" class="shape2">
+                    <div class="container">
+                        <div class="swiper-container overflow-hidden maan-lms-categorie-slide">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="lms-section-title">
+                                        <h2 style="font-weight: bold;">Popular Categories</h2>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="popular-slide-nav">
+                                        <div class="swiper-scrollbar"></div>
+                                        <div class="swiper-pagination"></div>
+                                        <div class="popular-slide-arrow">
+                                            <div class="swiper-button-prev" id="p-prev"></div>
+                                            <div class="swiper-button-next" id="p-next"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-wrapper">
+                                @foreach (Category item in Model.LiCategory)
+                                {
+                                    <div class="swiper-slide">
+                                        <a asp-area="" asp-controller="Courses" asp-action="LoadAllByDefaultCategory" class="popular-ctg-items">
+                                            <span class="icons">
+                                                <img src="@item.IconPath" alt=""
+                                                     style="width: 70px; height: 70px;">
+                                            </span>
+                                            <span class="content">
+                                                <b>@item.Name</b>
+                                                <small>@item.LiCourse.Count Courses</small>
+                                            </span>
+                                        </a>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Who We Are? Section -->
+        <section class="maan-lms-who-we-are">
+            <div class="container-fluid">
+                <div class="maan-lms-who-we-are-wrapper" data-background="assets/img/new-home/bg1.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-6 m-0">
+                                <div class="section-title">
+                                    <h2>Who We Are?</h2>
+                                    <p>
+                                        Welcome to LENGO Academy, where we believe in empowering our students with the knowledge, skills, and tools to achieve their career aspirations. We are dedicated to providing high-quality courses that are designed to help our students start their career paths or become successful professional freelancers.
+                                    </p>
+                                </div>
+                                <!-- <a href="#" class="btn btn-red btn-lg">About Us</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Who We Are? Section -->
+        <!-- Courses section -->
+        <section class="maan-courses-area maan-section-padding">
+            <div class="container-fluid g-0">
+                <div class="row g-0">
+                    <div class="col-12">
+                        <div class="courses-bg">
+                            <div class="maan-courses-section-wrapper">
+                                <div class="row justify-content-between align-items-center">
+                                    <div class="col-md-6" data-cue="slideInLeft" data-show="true"
+                                         style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                        <div class="section-title text-center text-md-start">
+                                            <h2 style="font-weight: bold;">Featured Courses</h2>
+                                            @* <p>
+                                                    Learning often happens in classrooms but it doesn’t
+                                                    have to. Use Eduflow to facilitate learning
+                                                    experiences no matter the context
+                                                </p>*@
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" data-cue="slideInRight" data-show="true"
+                                         style="animation-name: slideInRight; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                        <div class="all-courses text-center text-md-end">
+                                            <a asp-area="" asp-controller="Courses" asp-action="LoadAllByDefaultCategory" class="btn btn-red btn-lg">Browse Course</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="maan-courses-grid" data-cues="slideInLeft" data-disabled="true">
+                                    @foreach (Course item in Model.LiCourse)
+                                    {
+                                        <div class="maan-course-item" data-cue="slideInLeft" data-show="true"
+                                             style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                                            <div class="maan-course-img">
+                                                <a asp-area="" asp-controller="CourseDetails" asp-action="Course_Details" asp-route-Id="@item.Id">
+                                                    <img src="@item.ImagePath" alt="Image">
+                                                </a>
+                                            </div>
+                                            <div class="maan-course-content">
+                                                <div class="maan-course-title">
+                                                    <a asp-area="" asp-controller="CourseDetails" asp-action="Course_Details" asp-route-Id="@item.Id">@item.Name</a>
+                                                </div>
+                                                <div class="maan-course-author-name">
+                                                    <span>By:</span>
+                                                    @item.Instructor
+                                                </div>
+                                                <ul class="maan-course-meta">
+                                                    <li><i class="far fa-clock"></i> @item.Duration</li>
+                                                    <li><i class="fas fa-calendar-alt"></i>@Convert.ToDateTime(@item.LiSection[0].StartDate).ToString("dd/MM/yyyy") </li>
+
+                                                </ul>
+                                                <div class="maan-course-footer">
+                                                    <div class="maan-course-price">
+                                                        <a asp-area="" asp-controller="CourseDetails" asp-action="Course_Details" asp-route-Id="@item.Id" class="btn btn-red btn-sm">
+                                                            View
+                                                            Details
+                                                        </a>
+
+                                                    </div>
+                                                    <div class="maan-course-price">
+                                                        <a asp-area="" asp-controller="RegisterEnroll" asp-action="Enroll" asp-route-Id="@item.Id" class="btn btn-red btn-sm">
+                                                            Enroll
+                                                            Now
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Courses section -->
+        <br />
+        <!-- CTA Two Section -->
+        <section class="maan-cta-two-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" data-cue="slideInUp">
+                        <div class="maan-cta-wrapper" data-background="assets/img/bg/cta-bg2.svg">
+                            <div class="cta-content">
+                                <h2>Are you interested in sharing your course?</h2>
+                                <a asp-area="" asp-controller="RegisterEnroll" asp-action="Enroll" class="btn btn-red btn-lg">Join Now</a>
+                            </div>
+                            <img src="~/assets/img/svg/star-1.svg" alt="SVG" class="shape">
+                            <img src="~/assets/img/svg/star-2.svg" alt="SVG" class="shape2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA Two Section -->
+    </main>
+}

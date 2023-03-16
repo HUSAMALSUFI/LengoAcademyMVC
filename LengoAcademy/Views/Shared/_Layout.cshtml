@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LengoAcademy</title>
+    <base href="/">
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/img/logo-no-background.png">
+    <link rel="apple-touch-icon" href="~/assets/img/logo-no-background.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="~/Content/assets/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/assets/css/style.css" rel="stylesheet" />
+    <link href="~/Content/assets/css/normalize.css" rel="stylesheet" />
+    <link href="~/Content/assets/css/all.min.css" rel="stylesheet" />
+    <link href="~/Content/assets/css/mmenu-light.css" rel="stylesheet" />
+    <link href="~/Content/assets/css/bootstrap-icons.css" rel="stylesheet" />
+    <link href="~/Content/assets/css/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="~/Content/assets/css/jquery.fancybox.min.css" rel="stylesheet" />
+    <link href="~/Content/assets/css/nice-select.css" rel="stylesheet" />
+    <link href="~/Content/assets/css/scrollcue.css" rel="stylesheet" />
+    <link href="~/Content/assets/css/jquery-ui.css" rel="stylesheet" />
+    @RenderSection("Head",false)
+</head>
+<body>
+    <header class="header-area" id="sticky-header">
+        <style type="text/css">
+            .header-area {
+                padding: 1.069rem !important;
+                /*                background-color: #2E2E3E;
+            */
+            }
+        </style>
+        <!-- Header Area -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="maan-header-navbar">
+                        <div class="maan-header-logo">
+                            <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/assets/img/logo-no-background.png" style="width:200px" alt="Logo"></a>
+                        </div>
+                        <div class="maan-header-right">
+                            <div class="maan-header-nav">
+                                <a class="mobile-menu" href="#menu"><span></span></a>
+                                <nav class="menu" id="menu">
+                                    <ul class="nav-list">
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-area="" asp-controller="Courses" asp-action="LoadAllByDefaultCategory">Courses</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-area="" asp-controller="AboutUs" asp-action="About_Us">About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-area="" asp-controller="ContactUs" asp-action="Contact_Us">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            @*   <div class="d-none d-lg-flex align-items-center gap-5">
+                                    <div class="header-btn">
+                                        <a href="admin/index.html" class="btn maan-lms-btn mx-lg-2 btn-round"
+                                           role="button">Sign In</a>
+                                    </div>
+                                </div>*@
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Header Area -->
+    </header>
+    @RenderSection("Body")
+    <footer class="overflow-hidden">
+        <div class="container-fluid g-0" *ngFor="let v of liContact">
+            <div class="wrapper-bg maan-footer-area bg-black-2">
+                <div class="row" data-cues="slideInLeft">
+                    <div class="col-md-6 col-xl-5">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                @*                                <img src="{{v.logoPath}}" alt="Logo" style="width: 300px;">
+                                *@                                <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/Content/assets/img/logo-no-background.png" style="width:300px" alt="Logo"></a>
+
+                            </div>
+                            <ul class="footer-info">
+                                <li>
+                                    <a href="tel:00962799537174">
+                                        <img src="~/Content/assets/img/telephone.png" alt="svg icon">
+                                        +962 799537174
+                                    </a>
+                                    <br>
+                                    <a href="mailto:info@lengoacademy.org">
+                                        <img src="~/Content/assets/img/email.png" alt="svg icon">
+                                        info@lengoacademy.org
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="maan-social-link">
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100090617595996" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/lengoacademy" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/lengo-academy/" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-2">
+                        <div class="footer-widget">
+                            <ul class="footer-menu">
+                                <li><a asp-area="" asp-controller="AboutUs" asp-action="About_Us">About Us</a></li>
+                                <li><a asp-area="" asp-controller="Courses" asp-action="NewCourses">Courses</a></li>
+                                <li><a asp-area="" asp-controller="ContactUs" asp-action="Contact_Us">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="footer-widget">
+                            <h3 class="footer-title">Newsletter</h3>
+                            <p>Subscribe to our newsletter and get update from us!</p>
+                            <form class="subscribe-form">
+                                <input type="email" class="form-control" placeholder="yourname@email.com">
+                                <button><i class="fas fa-paper-plane"></i></button>
+                                <span>We Never Spam</span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="maan-footer-bottom">
+                <div class="row flex-column-reverse flex-lg-row gx-0 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-lg-5">
+                        <div class="footer-copyright text-center text-lg-start">
+                            <p>
+                                ©Copyright <a href="http://lengoacademy.com/" target="_blank">Lengo Academy</a> All rights
+                                reserved
+                                <script>
+                                    document.write(/\d{4}/.exec(Date())[0]);
+                                </script>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="~/Content/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="~/Content/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Content/assets/js/swiper-bundle.min.js"></script>
+    <script src="~/Content/assets/js/mmenu-light.js"></script>
+    <script src="~/Content/assets/js/jquery.fancybox.js"></script>
+    <script src="~/Content/assets/js/isotope.pkgd.min.js"></script>
+    <script src="~/Content/assets/js/jquery.waypoints.min.js"></script>
+    <script src="~/Content/assets/js/counterup2.min.js"></script>
+    <script src="~/Content/assets/js/jquery.nice-select.min.js"></script>
+    <script src="~/Content/assets/js/scrolltopcontrol.js"></script>
+    <script src="~/Content/assets/js/scrollcue.min.js"></script>
+    <script src="~/Content/assets/js/jquery-ui.js"></script>
+    <script src="~/Content/assets/js/typed.js"></script>
+    <script src="~/Content/assets/js/main.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

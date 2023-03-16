@@ -1,0 +1,392 @@
+﻿@using DareAcademy_DataAccess.Domain
+@using LengoAcademy.Models
+@using DareAcademy_DataAccess.Entity
+@using LengoAcademy.enums;
+@using LengoAcademy.Controllers
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model VmCourse_Details
+@section Head {
+    <style type="text/css">
+        .breadcrumb-bg {
+            height: 20rem;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+    </style>
+}
+@section Body{
+    <main id="main-body-wrapper">
+        <!-- Banner Area -->
+        <section class="maan-breadcrumb-area overflow-hidden">
+            <div class="container-fluid g-0">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="breadcrumb-bg breadcrumb-bg2" data-background="assets/img/is-elearning-your-best-choice.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner Area -->
+        <!-- Course Details Page -->
+        <section class="maan-course-details-page">
+            <div class="container">
+                <div class="row flex-column-reverse flex-lg-row">
+                    <div class="col-lg-8 col-xl-8">
+                        <h2 class="maan-course-title" style=" margin:20px 0 20px !important;">@Model.course.Name</h2>
+                        <div class="maan-course-short-description">
+                            @*   <p style=" margin:20px 0 20px !important;">
+                                Level up your design eye and improve your intuition to craft aesthetically satisfying
+                                UI designs with excellent typography
+                                </p>*@
+                            <ul class="nav nav-pills maan-nav-tabs mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="description-tab" data-bs-toggle="pill"
+                                            data-bs-target="#description" type="button" role="tab" aria-controls="description"
+                                            aria-selected="true">
+                                        Description
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="courses-topic-tab" data-bs-toggle="pill"
+                                            data-bs-target="#courses-topic" type="button" role="tab"
+                                            aria-controls="courses-topic" aria-selected="false">
+                                        Courses Topic
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="Schedule-tab" data-bs-toggle="pill"
+                                            data-bs-target="#Schedule" type="button" role="tab" aria-controls="Schedule"
+                                            aria-selected="false">
+                                        Schedule
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="Process-tab" data-bs-toggle="pill"
+                                            data-bs-target="#Process" type="button" role="tab" aria-controls="Process"
+                                            aria-selected="false">
+                                        Process
+                                    </button>
+                                </li>
+                            </ul>
+                            <div class="tab-content maan-tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="description" role="tabpanel"
+                                     aria-labelledby="description-tab">
+                                    <div class="maan-description-content">
+                                        <h4>About Course</h4>
+                                        <p>@Model.course.Descrption</p>
+                                        <h4 class="mt-5">Requirement</h4>
+                                        <ul class="maan-block-list">
+                                            <li class="maan-block-list-item">
+                                                <i class="bi bi-circle-fill"></i>@Model.course.Requirement
+                                            </li>
+                                            @*<li class="maan-block-list-item">
+                                                <i class="bi bi-circle-fill"></i>
+                                                Completion of bachelor's degree no earlier than two years prior to
+                                                joining the training
+                                                </li>*@
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="courses-topic" role="tabpanel"
+                                     aria-labelledby="courses-topic-tab">
+                                    <div class="maan-single-course-container">
+                                        <div class="tutor-course-topics-header">
+                                            <h4>Course content</h4>
+                                        </div>
+                                        @foreach (Topics item in Model.liMainTopics)
+                                        {
+                                            <div class="accordion" id="accordionExample">
+                                                <div class="accordion-item">
+                                                    <h4 class="accordion-header tutor-course-title" id="headingOne">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                                aria-controls="collapseOne">
+                                                            <i class="fas fa-plus"></i>
+                                                            <i class="fas fa-minus"></i>
+                                                            @item.Main;
+                                                        </button>
+                                                    </h4>
+                                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">
+                                                            @{
+                                                                List<Topics> lisub = Model.liSubTopics.Where(c => c.SubTopicsID == item.Id).ToList();
+                                                            }
+                                                            @foreach (Topics item2 in lisub)
+                                                            {
+                                                                <div class="tutor-course-lessons">
+                                                                    <div class="tutor-course-lesson">
+                                                                        <a href="javascript:void(0)">
+                                                                            <span class="lesson-preview-title">
+                                                                                <i class="fas fa-bookmark"></i>
+
+                                                                                <span class="lesson-preview-title-wrapper">
+                                                                                    <span class="lesson-title">@item2.Main</span>
+                                                                                    <span class="tutor-lesson-duration">@item2.Duration</span>
+                                                                                </span>
+
+                                                                            </span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="Schedule" role="tabpanel" aria-labelledby="Schedule-tab">
+                                    <div class="maan-description-content">
+                                        <h4>About the Schedule</h4>
+                                        <table class="table border table-bordered fz table-hover bw table-responsive">
+                                            <tbody>
+                                                @foreach (Section item in Model.LiSection)
+                                                {
+                                                    <tr class="bw">
+                                                        <td class="bw">
+                                                            <a>
+                                                                <i class="fas fass fa-calendar-alt px-3"></i>Date
+                                                            </a><br><a>
+                                                                @Convert.ToDateTime(@item.StartDate).ToString("dd/MM/yyyy") - @Convert.ToDateTime(@item.EndDate).ToString("dd/MM/yyyy")
+                                                            </a>
+                                                        </td>
+                                                        <td class="bw">
+                                                            <a>
+                                                                <i class="fass bi bi-alarm-fill px-3"></i>Days
+                                                            </a><br><a>
+                                                                @foreach (var courseSc in item.LiCourse_Schedule)
+                                                                {
+
+                                                                    @Enum.ToObject(typeof(daysofweek), Convert.ToInt32(courseSc.Day))
+
+                                                                    <span> &nbsp; </span>
+                                                                }
+                                                            </a>
+                                                        </td>
+                                                        <td class="bw">
+                                                            <a>
+                                                                <i class="fas fass fa-clock px-3"></i>Time
+                                                            </a><br><a>@item.Time</a>
+                                                        </td>
+                                                        <td class="bw">
+                                                            <a>
+                                                                <i class="fas fass fa-image px-3"></i>Type
+                                                            </a><br><a>@item.Type</a>
+                                                        </td>
+                                                        <td class="bw">
+                                                            <a>
+                                                                <i class=" fass bi bi-person-bounding-box px-3"></i>Capacity
+                                                            </a><br><a>@item.Capacity</a>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="Process" role="tabpanel" aria-labelledby="Process-tab">
+                                    <div class="maan-Process-accordion">
+                                        <h4>Process</h4>
+                                        @foreach (Process item in Model.LiProcess)
+                                        {
+                                            <div class="accordion" id="ProcessAccordionExample">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="ProcessOne">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                                aria-controls="collapseOne">
+                                                            @item.Title
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                                         aria-labelledby="ProcessOne" data-bs-parent="#ProcessAccordionExample">
+                                                        <div class="accordion-body">
+                                                            @item.Descrption
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-4">
+                        <aside class="maan-course-sidebar-container">
+                            <div class="course-sidebar-preview">
+                                <img src="@Model.course.ImagePath">
+                                <!-- <a class="play-button play-button-white"
+                                    href="https://www.youtube.com/watch?v=Q8TXgCzxEnw" data-fancybox>
+                                    <i class="fas fa-play"></i>
+                                </a> -->
+                            </div>
+                            <div class="maan-sidebar-inner-container">
+                                <ul class="maan-course-block" *ngFor="let item of lisection">
+                                    <li class="maan-course-block-list">
+                                        <div class="maan-course-block-list-item">
+                                            <img src="~/assets/img/svg/book.svg" alt="Book">
+                                            <span class="maan-course-block-item-text">Start Date</span>
+                                        </div>
+                                        <span class="maan-course-block-list-text">
+                                            @Convert.ToDateTime(@Model.section.StartDate).ToString("dd/MM/yyyy")
+                                        </span>
+                                    </li>
+                                    <li class="maan-course-block-list">
+                                        <div class="maan-course-block-list-item">
+                                            <img src="~/assets/img/svg/skill.svg" alt="Book">
+                                            <span class="maan-course-block-text">Instructor</span>
+                                        </div>
+                                        <span class="maan-course-block-list-text">@Model.course.Instructor</span>
+                                    </li>
+                                    <li class="maan-course-block-list">
+                                        <div class="maan-course-block-list-item">
+                                            <img src="~/assets/img/svg/hourglass.svg" alt="Book">
+                                            <span class="maan-course-block-text">DeadLine</span>
+
+                                        </div>
+                                        <span class="maan-course-block-list-text">
+                                            @Convert.ToDateTime(@Model.section.EndDate).ToString("dd/MM/yyyy")
+                                        </span>
+                                    </li>
+                                    <li class="maan-course-block-list">
+                                        <div class="maan-course-block-list-item">
+                                            <img src="~/assets/img/svg/certificate.svg" alt="Book">
+                                            <span class="maan-course-block-text">Certificate</span>
+                                        </div>
+                                        <span class="maan-course-block-list-text">@Model.course.Certificate</span>
+                                    </li>
+                                </ul>
+                                @if (@Model.course.Descount == null)
+                                {
+                                    <div class="maan-course-price-container" style="justify-content:center !important">
+                                        <div class="course-price">
+                                            <span class="discount-price">@Model.course.OriginalPrice</span>
+                                        </div>
+                                    </div>
+
+                                }
+                                else
+                                {
+                                    <div class="maan-course-price-container" style="justify-content:space-between !important">
+                                        <div class="course-price">
+                                            <span class="discount-price">@Model.course.OriginalPrice</span>
+                                            <del class="regular-price">@Model.course.Descount</del>
+                                        </div>
+                                    </div>
+                                }
+
+                                <div class="course-add-to-cart">
+                                    <a asp-area="" asp-controller="RegisterEnroll" asp-action="Enroll" asp-route-Id="@Model.course.Id" class="btn btn-red btn-xl">Enroll Now</a>
+                                    <!-- <a href="#" class="course-wishlist"><i class="far fa-heart"></i></a> -->
+                                </div>
+                                <div class="course-buy-now">
+                                </div>
+                                <!-- <form class="maan-coupon-form">
+                                    <input type="text" class="form-control" placeholder="Apply Coupon">
+                                    <button type="submit">Apply</button>
+                                </form> -->
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Course Details Page -->
+        <!-- Course Related Post -->
+        <section class="maan-course-related-post maan-section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="section-title offer-section-title">
+                            <h2>Featured Courses</h2>
+                            @* <p>
+                                Learning often happens in classrooms but it doesn’t have to. Use Eduflow
+                                to facilitate learning experiences no matter the context
+                                </p>*@
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="slider-navigation testimonial-navigation d-none d-md-block">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="maan-related-course-active swiper">
+                    <div class="swiper-wrapper">
+                        @foreach (Course item in Model.licourses)
+                        {
+                            <div class="swiper-slide">
+                                <div class="maan-course-item">
+                                    <div class="maan-course-img">
+                                        <a asp-area="" asp-controller="CourseDetails" asp-action="Course_Details" asp-route-Id="@item.Id">
+                                            <img src="@item.ImagePath" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="maan-course-content">
+                                        <div class="maan-course-title">
+                                            <a asp-area="" asp-controller="CourseDetails" asp-action="Course_Details" asp-route-Id="@item.Id">
+                                                @item.Name
+                                            </a>
+                                        </div>
+                                        <div class="maan-course-author-name">
+                                            <span>By:</span>
+                                            @item.Instructor
+                                        </div>
+                                        <ul class="maan-course-meta">
+                                            <li><i class="far fa-clock"></i> @item.Duration</li>
+                                            @*                                            <li><i class="fas fa-calendar-alt"></i>@Convert.ToDateTime(@item.LiSection[0].StartDate).ToString("dd/MM/yyyy") </li>
+                                            *@
+                                        </ul>
+                                        <div class="maan-course-footer">
+                                            <div class="maan-course-price">
+                                                <a asp-area="" asp-controller="CourseDetails" asp-action="Course_Details" asp-route-Id="@item.Id" class="btn btn-red btn-sm">
+                                                    View
+                                                    Details
+                                                </a>
+
+                                            </div>
+                                            <div class="maan-course-price">
+                                                <a asp-area="" asp-controller="RegisterEnroll" asp-action="Enroll" asp-route-Id="@item.Id" class="btn btn-red btn-sm">
+                                                    Enroll
+                                                    Now
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Course Related Post -->
+        <br />
+        <!-- CTA Two Section -->
+        <section class="maan-cta-two-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" data-cue="slideInUp">
+                        <div class="maan-cta-wrapper" data-background="assets/img/bg/cta-bg2.svg">
+                            <div class="cta-content">
+                                <h2>Are you interested in sharing your course?</h2>
+                                <a asp-area="" asp-controller="RegisterEnroll" asp-action="Enroll" class="btn btn-red btn-lg">Join Now</a>
+                            </div>
+                            <img src="~/assets/img/svg/star-1.svg" alt="SVG" class="shape">
+                            <img src="~/assets/img/svg/star-2.svg" alt="SVG" class="shape2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA Two Section -->
+    </main>
+}
